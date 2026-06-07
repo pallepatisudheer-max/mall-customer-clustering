@@ -1,34 +1,13 @@
-# Mall Customer Clustering
+# Customer Segmentation Using K-Means Clustering
 
-A Machine Learning project that segments mall customers using K-Means Clustering.
+## Overview
+This project performs customer segmentation using the Mall Customers dataset.
 
 ## Features
-
-- Data Preprocessing
+- Data preprocessing
 - Elbow Method for optimal clusters
 - K-Means Clustering
-- Customer Segmentation Visualization
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-
-## Project Structure
-
-```
-main.py
-data_preprocessing.py
-cluster_analysis.py
-segmentation.py
-pca_visualization.py
-mall_customers.csv
-requirements.txt
-```
+- PCA-based Cluster Visualization
 
 ## Installation
 
@@ -36,17 +15,33 @@ requirements.txt
 pip install -r requirements.txt
 ```
 
-## Run Project
+## Run
 
 ```bash
 python main.py
 ```
 
 ## Dataset
+Mall Customers Dataset
 
-Mall Customers dataset containing:
-- CustomerID
-- Gender
-- Age
-- Annual Income
-- Spending Score
+## Output
+
+### Elbow Method
+
+![Elbow Method](screenshots/elbow_method.jpg)
+
+### Customer Segments
+
+![Cluster Visualization](screenshots/cluster_visualization.jpg)
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+
+## Author
+
+Sudheer
